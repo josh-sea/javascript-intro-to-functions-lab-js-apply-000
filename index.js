@@ -16,15 +16,14 @@ function logWhisper(string) {
 
 var mixedCase = "I can\'t hear you!"
 var lovestring = "I love you, Grandma."
-var loveBackString = "I love you, too."
 
 function sayHiToGrandma(string) {
   if (string.toLowerCase() === string){
     return mixedCase
   } else if (string.toUpperCase() === string()){
     return "YES INDEED!"
-  } else (string === lovestring){
-    return loveBackString
+  } else if (string === lovestring){
+    return "I love you, too."
   }
 }
 
