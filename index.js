@@ -18,4 +18,5 @@ var sayHiToGrandma = "I can\'t hear you!"
 
 function sayHiToGrandma(string) {
   if sayHiToGrandma.mixedCase === string.toLowerCase()
+    return sayHiToGrandma
 }
