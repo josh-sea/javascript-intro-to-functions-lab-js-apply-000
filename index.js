@@ -24,7 +24,9 @@ function sayHiToGrandma(string) {
     return mixedCase
   } else if (string.toUpperCase === string()){
     return upperCase
-  } elseif ()
+  } else if (string === lovestring){
+    return loveBackString
+  }
 }
 
   
