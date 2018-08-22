@@ -20,7 +20,7 @@ var lovestring = "I love you, Grandma."
 function sayHiToGrandma(string) {
   if (string.toLowerCase() === string){
     return mixedCase
-  } else if (string.toUpperCase() === string()){
+  } else if (string.toUpperCase() === string){
     return "YES INDEED!"
   } else if (string === lovestring){
     return "I love you, too."
