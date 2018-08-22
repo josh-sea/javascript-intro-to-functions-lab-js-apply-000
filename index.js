@@ -1,1 +1,3 @@
-var shout =
+function shout(string) {
+  
+}
